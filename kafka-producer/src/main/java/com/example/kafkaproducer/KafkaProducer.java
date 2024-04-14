@@ -39,7 +39,7 @@ public class KafkaProducer {
     }
 
     private static void logSuccessProducer(final RecordMetadata recordMetadata) {
-        log.info("[KAFKA-PRODUCER] Sent message successfully to topic={}, partition={}, offset={}",
+        log.info("[KAFKA-PRODUCER] Produced message successfully to topic={}, partition={}, offset={}",
                 PRODUCE_TOPIC, recordMetadata.partition(), recordMetadata.offset());
     }
 
