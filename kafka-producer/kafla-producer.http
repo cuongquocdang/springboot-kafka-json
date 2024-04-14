@@ -1,0 +1,8 @@
+### Send Single Message
+POST http://localhost:8010/v1/simulators/single
+Content-Type: application/json
+
+{
+  "userId": "123",
+  "name": "Developer"
+}

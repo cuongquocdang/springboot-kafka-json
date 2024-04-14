@@ -1,0 +1,9 @@
+server:
+  shutdown: graceful
+  port: 8010
+
+spring:
+  application:
+    name: kafka-producer
+  main:
+    banner-mode: off
